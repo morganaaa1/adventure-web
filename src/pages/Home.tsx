@@ -11,7 +11,20 @@ import '../styles.css';
                     <BannerTop/>
                     <div className="center full">
                         <Parallax speed={10}>
-                        <p className="headline gray">Life is Yours.</p>
+                            <div className="flex">
+                                <Parallax speed={7}>
+                                    <img className="photo" src={`./assets/images/local (1).jpg`}/>
+                                </Parallax>
+                                <Parallax speed={-14}>
+                                    <img className="photo" src={`./assets/images/local (2).jpg`}/>
+                                </Parallax>
+                                <Parallax speed={7}>
+                                    <img className="photo" src={`./assets/images/local (3).jpg`}/>
+                                </Parallax>
+                                <Parallax speed={-14}>
+                                    <img className="photo" src={`./assets/images/local (4).jpg`}/>
+                                </Parallax>
+                            </div>
                         </Parallax>
                     </div>
                 </ParallaxProvider>

@@ -46,3 +46,9 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0) 50%, black);
 }
 
+.photo {
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+}
+

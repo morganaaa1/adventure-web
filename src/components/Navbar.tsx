@@ -2,7 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
 `
 
 const Wrapper = styled.div`
